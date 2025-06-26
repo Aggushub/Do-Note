@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Do-Notes</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="To-Do List combined with Notes App">
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+
+    <header>
+  <div class="toggle-container">
+    <button id="toggleTheme">🌗 Toggle Theme</button>
+  </div>
+
+  <div class="center-header">
+    <img src="logo.png" alt="Do-Notes Logo" class="center-logo" />
+    <div class="center-text">
+      <p>Your tasks and thoughts, organized.</p>
+    </div>
+  </div>
+</header>
+
+
+
+
+    <div class="main_part">
+
+        <h2 id="modeToggle" class="section-toggle">My Notes</h2>
+
+        <section id="noteSection">
+            <h3>🗒️ Notes</h3>
+            <div id="noteList"></div>
+        </section>
+
+        <section id="taskSection">
+            <h3>📋 To-Do List</h3>
+            <ul id="taskList"></ul>
+        </section>
+
+        <div class="input-section">
+            <div id="inputFields" class="collapsed">
+                <input type="text" id="titleInput" placeholder="Enter title" />
+                <textarea id="noteBody" placeholder="(Optional) Enter note body"></textarea>
+            </div>
+            <div class="button-group">
+                <button id="addButton">➕ Add</button>
+                <button id="cancelButton" style="display: none;">❌ Cancel</button>
+            </div>
+        </div>
+
+    </div>
+
+    <footer>
+        <p>@ 2025 Created by Joel Amos Philip on 26/7/2025. All rights reserved.</p>
+        <p>Version 1.0 | <a href="">GitHub</a> | <a href="link">LinkedIn</a></p>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
