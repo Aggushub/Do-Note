@@ -1,20 +1,21 @@
-<img src="logo.png" alt="Do-Notes Logo" width="80" />
+<h1>
+  <img src="https://github.com/Aggushub/DoList/blob/main/logo.png" width="100" style="vertical-align: middle; margin-right: 10px;" />
+  Do-Note
+</h1>
 
-# Do-Notes
+**Do-Note** is a thoughtfully designed web application that combines the functionality of a **Notes App** and a **To-Do List Manager** — all in a single, beautifully styled interface. It allows you to capture your ideas, write quick thoughts, and organize your actionable tasks in one place, with zero distractions.
 
-**Do-Notes** is a thoughtfully designed web application that combines the functionality of a **Notes App** and a **To-Do List Manager** — all in a single, beautifully styled interface. It allows you to capture your ideas, write quick thoughts, and organize your actionable tasks in one place, with zero distractions.
-
-Whether you're planning your day, managing a project, or jotting down creative sparks, Do-Notes offers a seamless space to both **think and execute**.
+Whether you're planning your day, managing a project, or jotting down creative sparks, Do-Note offers a seamless space to both **think and execute**.  
 Perfect for students, solo developers, creatives, or anyone who wants **both planning and journaling in one unified dashboard**.
 
 ---
 
-## 🖼️ Screenshot
+<h2>🖼️ Screenshots</h2>
 
-<!-- Upload and insert screenshot below -->
-<!-- Example: ![Do-Notes Screenshot](screenshot.png) -->
-
----
+<p float="left">
+  <a href="DNS1.png"><img src="DNS1.png" width="47%" alt="To-List Screenshot 1" /></a>
+  <a href="DNS2.png"><img src="DNS2.png" width="47%" alt="To-List Screenshot 2" /></a>
+</p>
 
 
 ## 📖 Story of Creation
@@ -29,29 +30,29 @@ So I paused and thought — *how could I make this more personal and unique?*
 
 That’s when the idea evolved.
 
-Instead of making just another checklist tool, I decided to **combine two powerful productivity tools — a To-Do List and a Notes App** — into one page, **with shared styling, interaction, and purpose**. That gave birth to the idea of **Do-Notes** — short for *“Do” (your tasks) + “Notes” (your ideas)*.
+Instead of making just another checklist tool, I decided to **combine two powerful productivity tools — a To-Do List and a Notes App** — into one page, **with shared styling, interaction, and purpose**. That gave birth to the idea of **Do-Note** — short for *“Do” (your tasks) + “Note” (your thoughts)*.
 
 This project was built as part of my **Frontend Development course on Udemy**, and it helped me apply every concept I learned in a meaningful way.
 
 ---
 
-
 ## 🚀 Features
 
-- 🎨 **Theme Toggle** – Light and dark modes on click
+- 🌗 **Theme Toggle** – Light and dark modes on click
 - 🗒️ **Notes Section** – Add, view, color-tag, and edit notes
 - ✅ **To-Do List** – Add task titles, blur for focus, and toggle visibility
-- 🌀 **View Toggle** – Switch between "My Notes" and "To-Do List" with a simple click
+- 🔁 **View Toggle** – Switch between "My Notes" and "To-Do List" instantly
 - 🖼️ **Logo and Favicon** – Personalized branding with `logo.png`
-- 💡 **Responsive UI** – Yellow-steel blue gradient, works on all screen sizes
+- 🌀 **Clean UI** – Yellow-steel blue gradient for a calming, productive vibe
+- 📱 **Responsive Design** – Optimized for screens of all sizes
 
 ---
 
 ## 🛠️ Built With
 
-- **HTML5** – Semantic layout
-- **CSS3** – Custom styling, gradients, and layout
-- **Vanilla JavaScript** – DOM handling and interactivity
+- **HTML5** – Semantic layout and structure
+- **CSS3** – Flexbox, gradients, transitions, and responsive design
+- **Vanilla JavaScript** – DOM manipulation, event handling, theme and mode switching
 
 ---
 
@@ -63,10 +64,9 @@ This project was built as part of my **Frontend Development course on Udemy**, a
 |-----|------|
 | 1 | HTML structure, layout design, header/footer setup |
 | 2 | Notes + Tasks sections with mode toggle |
-| 3 | Theme switching, styling, edit, and polish |
+| 3 | Theme switching, blur/unblur, edit/cancel flow, and styling polish |
 
 ---
-
 
 ## 🔮 Future Scope
 
@@ -77,14 +77,7 @@ What’s coming next:
 - 📱 **Mobile-first redesign** for smaller screens
 - 🏷️ **Categories or tags** for notes and tasks
 - 🔔 **Reminders/notifications** integration
+- ⏰ **Due date and sorting** features
 
----
-
-## 🙌 Author
-
-**Joel Amos Philip**  
-📅 Created on *26/06/2025*  
-
----
 
 > Feel free to fork, remix, or use this project as inspiration for your own productivity app!
